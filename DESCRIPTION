@@ -1,0 +1,47 @@
+Package: spotPhotosApp
+Title: Count Bacteria Colonies from Spots on Agar Plate Photos
+Version: 0.0.0.9000
+Authors@R: 
+    person("Vincent", "Aranzana-Climent", , "vincent@aracli.org", role = c("cre", "aut"))
+Description: The goal is to take pictures of agar plates with bacteria
+    spots, count the CFUs, link them with their position on the plate and
+    attribute experimental variables to the counts based on said position.
+    It uses Fiji-ImageJ for image pre-processing and ilastik for pixel
+    classification and object detection.
+License: GPL (>= 3)
+Imports: 
+    config (>= 0.3.1),
+    dplyr,
+    DT,
+    gargoyle,
+    ggplot2,
+    golem (>= 0.3.5),
+    hms,
+    magrittr,
+    png,
+    purrr,
+    R6,
+    readr,
+    readxl,
+    rJava,
+    shiny (>= 1.7.1),
+    shinydashboard,
+    shinyFiles,
+    shinyjs,
+    spsComps,
+    stringr,
+    tibble,
+    tidyr,
+    tools,
+    utils,
+    XLConnect
+Suggests: 
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+RoxygenNote: 7.2.3
+URL: https://github.com/Vincent-AC/spotPhotosApp
+BugReports: https://github.com/Vincent-AC/spotPhotosApp/issues
